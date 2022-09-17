@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.CursoActivity">
+
+    <EditText
+        android:id="@+id/etIdProfesor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Profesor"
+        android:layout_marginHorizontal="8dp"/>
+
+    <EditText
+        android:id="@+id/etNombreCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Curso"
+        android:layout_marginHorizontal="8dp"/>
+
+    <EditText
+        android:id="@+id/etDuracionCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Duración"
+        android:layout_marginHorizontal="8dp"/>
+
+    <Button
+        android:id="@+id/btnConsultarCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Curso"
+        android:layout_marginHorizontal="8dp"/>
+
+    <Button
+        android:id="@+id/btnGuardarCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Curso"
+        android:layout_marginHorizontal="8dp"/>
+
+    <Button
+        android:id="@+id/btnActualizarCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Curso"
+        android:layout_marginHorizontal="8dp"/>
+
+    <Button
+        android:id="@+id/btnBorrarCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrar Curso"
+        android:layout_marginHorizontal="8dp"/>
+
+</LinearLayout>
